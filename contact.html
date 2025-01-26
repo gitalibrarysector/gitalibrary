@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Library</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h1>Get in Touch</h1>
+                <p>We're here to help and answer any questions you might have</p>
+            </div>
+        </section>
+
+        <section class="contact-info-cards">
+            <div class="info-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Visit Us</h3>
+                <p>123 Library Street</p>
+                <p>Knowledge City, KN 12345</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-phone"></i>
+                <h3>Call Us</h3>
+                <p>+1 (555) 123-4567</p>
+                <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Us</h3>
+                <p>info@library.com</p>
+                <p>support@library.com</p>
+            </div>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-form-wrapper">
+                <div class="form-header">
+                    <h2>Send us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you soon</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="membership">Membership</option>
+                            <option value="facilities">Facilities Booking</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="contact-map">
+                <div class="map-container">
+                    <img src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22map%20photo.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-01-26T11%3A21%3A46.353Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F664e7aa5d96b4979%2Fmap%2520photo.jpg%3FExpires%3D1832498506%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DLRFAy1njMOIwAl-tlzDiAM3pTB0xXEXph8lP-C3BSbazpdkuzE~AWKhuZScqt-JuDl-gzkQobz-4weJqAWQxQ5nL7x2BYeYqIWtlFywx7f1y4XZcd3qOyib3jwG0t675UoiEA8JyQTDVTI2oAI6kokeX3u9-P8jkQPcWOr1rvXi2tFwmcGupzCYc2DRjv7eSfKJXLTBll9Eui7itcbogfPCbu0NK0kcV95~7gg3fJJDekwFSZaHVVqgImjQQQ9XQq2jXY4dJi8i6ucpXWusy0FcgGUT33mcbiGyokfbA6TUBbzFak6xms7kgjopC80URPegvA8Iy-vgY7a3tNBCwgw__%22%7D" alt="Location Map">
+                </div>
+                <div class="map-overlay">
+                    <h3>Our Location</h3>
+                    <p>Conveniently located in the heart of Knowledge City</p>
+                    <a href="https://maps.app.goo.gl/m3A1Sb7fpecxd9mD9" class="directions-button">
+                        <i class="fas fa-directions"></i>
+                        Get Directions
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What are your opening hours?</h3>
+                    <p>We are open Monday to Friday from 9:00 AM to 6:00 PM, and Saturdays from 10:00 AM to 4:00 PM.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I become a member?</h3>
+                    <p>Visit our library with a valid ID and proof of address. Our staff will guide you through the membership process.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I book facilities online?</h3>
+                    <p>Yes, registered members can book study rooms and other facilities through our online booking system.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Library. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
